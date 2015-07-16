@@ -1,0 +1,51 @@
+{
+    "config": {
+        "load_error": "Config bulunamadı. Standart ayarlar kullanılıyor!",
+        "server_error": "Sunucu desteklenmiyor.",
+        "update": "<font face='$FieldFont' size='13'><b>Yeni Güncelleme:</b> </font>",
+        "reload": "<font face=\"$FieldFont\" size=\"13\"><b>Ayarlama ve Dil Dosyaları yüklendi!</b> </font>"
+    },
+    "language": {
+        "error": "Dil paketi bulunamadı. İngilizce ayarlar kullanılıyor!"
+    },
+    "clanmod": {
+        "online": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Online: {{online}} / {{members}}</b></font>",
+        "button": "Klan Mod",
+        "print_done": "<font face='$FieldFont' size='13'>Online oyuncular kaydedildi:</font>",
+        "print_error": "<font face='$FieldFont' size='13'>Oyuncular kaydedilirken hata oluştu. python.log dosyasını kontrol et!</font>",
+        "not_in_clan": "<font face='$FieldFont' size='13'>Klanda değilsiniz. Klan Mod kapatıldı!</font>"
+    },
+    "clanwars": {
+        "message": {
+            "title": "<font face='$FieldFont' size='13' color='#BFE9FF'><b>Klan Savaşları Listesi</b></font>\n",
+            "message": [
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>Zaman:<tab><tab>{{time}}</b></font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'><b>Bölge:<tab><tab>{{landing}} ( {{income}}</b><img src='img://gui/maps/icons/library/GoldIcon-2.png' width='16' height='16' align='baseline' vspace='-3'><b>)</b></font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Harita:<tab><tab>{{map}}</font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Rakip:<tab><tab><img src='{{icon}}' width='16' height='16' align='baseline' vspace='-3'>{{owner}}</font></textformat>",
+                "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13'>Tür:<tab><tab>{{type}}</font></textformat>\n"
+            ],
+            "spacer": "<textformat tabstops='[10,40]'><font face='$FieldFont' size='13' color='#BFE9FF'><b>------------------------------</b></font></textformat>\n",
+            "for_province": "Toprak savaşı",
+            "meeting_engagement": "Karşılaşma",
+            "landing": "Çıkarma",
+            "attacker": "Saldırı",
+            "defender": "Savunma",
+            "approximately": "~",
+            "new_clan_war": "<font face='$FieldFont' size='13'>New Clan War battle!</font>",
+            "none_clan_wars": "Klan Savaşı yok"
+        },
+        "net_error": "Klan Savaşları verisi alınırken hata oluştu. İnternet kaynaklı bir problem olabilir",
+        "save_error": "Klan Savaşları verisi kaydedilirken hata oluştu. python.log dosyasını kontrol et!",
+        "data_saved": "Klan Savaşları Güncellendi!",
+        "button": "Klan Savaşları"
+    },
+    "provinces": {
+        "no_file": "<b>clanMod.prov</b>Dosyası Bulunamadı!",
+        "no_province": "Toprak dosyası bulunamadı. Lütfen <b>clanMod.prov</b> dosyasını silin.",
+        "load_error": "WG'den veri alımı esnasında hata oluştu. İnternet kaynaklı bir problem olabilir.",
+        "updated": "Toprak dosyası oluşturuldu ve veriler güncellendi!",
+        "save_error": "Toprak dosyası kaydedilirken hata oluştu. python.log dosyasını kontrol et!",
+        "owner_get_error": "Toprak sahibi verisi alınırken hata oluştu."
+    }
+}

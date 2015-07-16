@@ -1,0 +1,5 @@
+<NoScroll.xml>
+    <noScroll>True</noScroll>
+    <defZoom>False</defZoom>
+    <defZoomVal>2.0</defZoomVal>
+</NoScroll.xml>

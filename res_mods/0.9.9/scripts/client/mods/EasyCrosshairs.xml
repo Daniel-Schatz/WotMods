@@ -1,0 +1,17 @@
+<!--
+EXPROMT_MAX Team
+Универсальный скрипт прицелов EasyCrosshairs принадлежит сайтам expromt-max.ru, wotsite.net и Polyacov_Yury.
+Автор скрипта: Polyacov_Yury
+Разрешается использование скрипта любыми сайтами, для любых прицелов, любыми пользователями и любыми модпакерами.
+-->
+<EasyCrosshairs.xml>
+  <strategicMode>3</strategicMode>
+  <sniperMode>2</sniperMode>
+  <positionFixArcade>False</positionFixArcade>
+  <positionFixSniper>False</positionFixSniper>
+  <positionFixStrategic>False</positionFixStrategic>
+  <positionFixPostmortem>False</positionFixPostmortem>
+  <settingsFix>True</settingsFix>
+  <aimScale>0.5</aimScale>
+  <flags>ext</flags>
+</EasyCrosshairs.xml>

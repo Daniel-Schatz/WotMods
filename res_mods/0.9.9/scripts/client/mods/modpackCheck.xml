@@ -1,0 +1,23 @@
+<modpack.xml>
+	<!-- Set Toggle ON/OFF. If set to ON, mod will check newer version every 7200 secs. With OFF it will check it only at game start -->
+	<Toggle>OFF</Toggle>
+	<ModpackName>Aslain's ModPack</ModpackName>
+	<Author></Author>
+	<VersionText>Version</VersionText>
+	<UpdateAvailable>available</UpdateAvailable>
+	<UpToDate>up to date</UpToDate>
+	<UpdateText>Download</UpdateText>
+	<UpdateLink>http://aslain.com/index.php?/topic/13-</UpdateLink>
+	<SupportText>Support</SupportText>
+	<SupportLink>http://aslain.com/index.php?/forum/11-</SupportLink>
+	<ColorModpackName>#00BEFF</ColorModpackName>
+	<ColorAuthor>#FFFFFF</ColorAuthor>
+	<ColorActual>#0EFE0E</ColorActual>
+	<ColorOutdated>#FF0000</ColorOutdated>
+	<ColorInfo>#30d3eb</ColorInfo>
+	<ColorLink>#FBCF38</ColorLink>
+	<ColorBeta>#FBCF38</ColorBeta>
+	<Icon></Icon>
+	<IconWidth>37</IconWidth>
+	<IconHeight>24</IconHeight>
+</modpack.xml>                                                 
