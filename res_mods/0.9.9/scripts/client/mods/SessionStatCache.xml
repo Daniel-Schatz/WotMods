@@ -1,0 +1,40 @@
+<SessionStatCache.xml>
+	<daniel2682>
+		<createTime>	25.07.2015	</createTime>
+		<variableValues>
+			<receivedCreditsBattle>	0	</receivedCreditsBattle>
+			<receivedCredits>	0	</receivedCredits>
+			<totalXPRatio>	0	</totalXPRatio>
+			<total_expDamage>	0	</total_expDamage>
+			<total_expSpot>	0	</total_expSpot>
+			<total_expDef>	0	</total_expDef>
+			<serviceCost>	0	</serviceCost>
+			<total_expWinRate>	0	</total_expWinRate>
+			<total_expFrag>	0	</total_expFrag>
+			<serviceCostBattle>	0	</serviceCostBattle>
+			<totalFreeXP>	0	</totalFreeXP>
+			<totalVehicleTier>	0	</totalVehicleTier>
+		</variableValues>
+		<stats>
+			<freeXP>	188449	</freeXP>
+			<damageAssistedTrack>	601063	</damageAssistedTrack>
+			<gold>	13813	</gold>
+			<totalXP>	4867348	</totalXP>
+			<damageReceived>	7270419	</damageReceived>
+			<capturePoints>	5832	</capturePoints>
+			<damageDealt>	9097346	</damageDealt>
+			<deathsCount>	4731	</deathsCount>
+			<fragsCount>	6578	</fragsCount>
+			<droppedCapturePoints>	6394	</droppedCapturePoints>
+			<spottedCount>	7183	</spottedCount>
+			<credits>	1243572	</credits>
+			<battlesCount>	6973	</battlesCount>
+			<winsCount>	3748	</winsCount>
+			<shotsCount>	74278	</shotsCount>
+			<originalXP>	3188999	</originalXP>
+			<lossesCount>	3146	</lossesCount>
+			<hitsCount>	47921	</hitsCount>
+			<damageAssistedRadio>	1870642	</damageAssistedRadio>
+		</stats>
+	</daniel2682>
+</SessionStatCache.xml>

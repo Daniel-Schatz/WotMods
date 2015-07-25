@@ -1,69 +1,49 @@
 {
   "hangar": {
-    // true - Show XWN8 instead of XEFF in company windows
     "xwnInCompany": true,
-    // true - enable locker for gold
     "enableGoldLocker": true,
-    // true - enable locker for free XP
     "enableFreeXpLocker": true,
-    // true - Use credits instead of gold as default currency for ammo and equipment
     "defaultBoughtForCredits": true,
-    // true - Hide price button in tech tree
     "hidePricesInTechTree": false,
-    // true - Show mastery mark in tech tree
     "masteryMarkInTechTree": true,
-    // true - Allow to consider the exchange of experience with gold in tech tree
     "allowExchangeXPInTechTree": true,
-    // true - enable crew auto return function
     "enableCrewAutoReturn": true,
-    "enableEquipAutoReturn": false,	
-    // true - Enable widgets
+    "crewReturnByDefault": false,
+    "enableEquipAutoReturn": false,
+    "blockVehicleIfLowAmmo": false,
+    "lowAmmoPercentage": 20,
     "widgetsEnabled": false,
-    // Ping servers
     "pingServers": {
-      // true - Enable display of ping to the servers
       "enabled": true,
-      // Update interval, in ms
       "updateInterval": 10000,
-      // Axis field coordinates
-      "x": 65,
-      "y": 52,
-      // Transparency
+      "x": 3,
+      "y": 51,
+      "hAlign": "left",
+      "vAlign": "top",
       "alpha": 80,
-      // Server to response time text delimiter
       "delimiter": ": ",
-      // Maximum number of column rows
       "maxRows": 2,
-      // Gap between columns
-      "columnGap": 10,
-      // Leading between lines.
+      "columnGap": 3,
       "leading": 0,
-      // true - place at top of other windows, false - at bottom.
       "topmost": true,
-      // Text style
+      "showTitle": true,
       "fontStyle": {
-        // Font name
         "name": "$FieldFont",
         "size": 12,
         "bold": false,
         "italic": false,
-        // Different colors depending on server response time
         "color": {
-          "great": "0xD042F3",
-          "good":  "0x60FF00",
-          "poor":  "0xFE7903",
-          "bad":   "0xFE0E00"
-        }
+          "great": "0xFFCC66",
+          "good":  "0xE5E4E1",
+          "poor":  "0x96948F",
+          "bad":   "0xD64D4D"
+        },
+        "markCurrentServer": "bold"
       },
-      // Threshold values defining response quality
       "threshold": {
-        // Below this value response is great
         "great": 35,
-        // Below this value response is good
         "good": 60,
-        // Below this value response is poor
         "poor": 100
-        // Values above define bad response
       },
       "shadow": {
         "enabled": true,
@@ -75,9 +55,53 @@
         "strength": 2
       }
     },
-    // Parameters for tank carousel
+    "onlineServers": {
+      "enabled": true,
+      "x": 170,
+      "y": 51,
+      "hAlign": "left",
+      "vAlign": "top",
+      "alpha": 80,
+      "delimiter": ": ",
+      "maxRows": 2,
+      "columnGap": 3,
+      "leading": 0,
+      "topmost": true,
+      "showTitle": true,
+      "fontStyle": {
+        "name": "$FieldFont",
+        "size": 12,
+        "bold": false,
+        "italic": false,
+        "color": {
+          "great": "0x60ff00",
+          "good":  "0xF8F400",
+          "poor":  "0xFE7903",
+          "bad":   "0xFE0E00"
+        },
+        "markCurrentServer": "bold"
+     },
+      "threshold": {
+        "great": 30000,
+        "good": 10000,
+        "poor": 3000
+      },
+      "shadow": {
+        "enabled": true,
+        "color": "0x000000",
+        "distance": 0,
+        "angle": 0,
+        "alpha": 70,
+        "blur": 4,
+        "strength": 2
+      }
+    },
+    "serverInfo": {
+      "enabled": true,
+      "alpha": 100,
+      "rotation": 0
+    },
     "carousel": ${"carousel.xc":"carousel"},
-    // Parameters for hangar clock
     "clock": ${"clock.xc":"clock"}
   }
 }

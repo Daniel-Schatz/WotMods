@@ -1,5 +1,5 @@
 {
-  "configVersion": "5.5.1",
+  "configVersion": "6.0.0",
   "language": "auto",
   "region": "auto",
   "autoReloadConfig": false,  
@@ -8,9 +8,9 @@
     "author": "Aslain",
     "description": "config by Aslain",
     "url": "http://www.aslain.com",
-    "date": "04.01.2015",
-    "gameVersion": "0.9.5",
-    "modMinVersion": "5.5.1"
+    "date": "17.07.2015",
+    "gameVersion": "0.9.9",
+    "modMinVersion": "6.1.3"
   },
 
   "login": ${"login.xc":"login"},
